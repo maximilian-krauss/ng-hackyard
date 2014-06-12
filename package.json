@@ -1,0 +1,24 @@
+{
+  "name": "ng-hackyard",
+  "version": "1.0.0",
+  "description": "Projekt stub for quick prototyping",
+  "main": "./server/server.js",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maximilian-krauss/ng-hackyard.git"
+  },
+  "author": "Maximilian Krauss <max@krauss.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maximilian-krauss/ng-hackyard/issues"
+  },
+  "homepage": "https://github.com/maximilian-krauss/ng-hackyard",
+  "dependencies": {
+    "express": "^4.4.3",
+    "morgan": "^1.1.1"
+  }
+}
